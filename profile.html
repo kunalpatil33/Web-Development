@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile Card</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(121, 240, 240);
+        }
+
+
+        .card {
+            width: 700px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px gray;
+            position: relative;
+
+        }
+
+        .half-oval {
+            height: 200px;
+            width: 200px;
+            background: aqua;
+            border-radius: 0 20px 0 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .top {
+            display: flex;
+            gap: 30px;
+        }
+
+        .top img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 8px black;
+        }
+
+        .info h1 {
+            margin-bottom: 5px;
+        }
+
+        .info h3 {
+            margin-top: 0;
+        }
+
+        .info p {
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 100px;
+            margin-top: 30px;
+            font-size: 25px;
+        }
+
+        .buttons {
+            gap: 50px;
+        }
+
+        .follow {
+            padding: 15px 50px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left: 30;
+            margin-top: 30px;
+        }
+
+        .profile {
+            padding: 15px 50px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="top">
+            <img src="kp.jpeg">
+
+            <div class="info">
+                <h1>Kunal Patil</h1>
+                <h3>kunalpatil33@gmail.com</h3>
+                <p>
+                    I'm Kunal Patil, a passionate student about <br>Coding and Learning new things !
+                </p>
+
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <b>99K</b><br>
+                Views
+            </div>
+
+            <div>
+                <b>50</b><br>
+                Projects
+            </div>
+
+            <div>
+                <b>10M</b><br>
+                Followers
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button class="follow">Follow</button>
+            <button class="profile">View Profile</button>
+
+            <div class="shape half-oval"></div>
+
+
+</body>
+
+</html>
