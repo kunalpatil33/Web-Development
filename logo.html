@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Logo</title>
+
+    <style>
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:white;
+        }
+
+        .instagram{
+            width:250px;
+            height:250px;
+            border-radius:60px;
+            background:linear-gradient(
+                45deg,
+                #feda75,
+                #fa7e1e,
+                #d62976,
+                #962fbf,
+                #4f5bd5
+            );
+            position:relative;
+        }
+
+        .camera{
+            width:150px;
+            height:140px;
+            border:12px solid white;
+            border-radius:40px;
+            position:absolute;
+            top:43px;
+            left:43px;
+        }
+
+        .lens{
+            width:60px;
+            height:60px;
+            border:12px solid white;
+            border-radius:50%;
+            position:absolute;
+            top:35px;
+            left:35px;
+        }
+
+        .dot{
+            width:18px;
+            height:18px;
+            background:white;
+            border-radius:50%;
+            position:absolute;
+            top:18px;
+            right:18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="instagram">
+        <div class="camera">
+            <div class="lens"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+</body>
+</html>
